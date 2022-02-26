@@ -1,3 +1,11 @@
+import Layout from '../../components/Layout'
+
 export default function Teste(){
-    return "Testando pagina! JF3"
+    return (
+        <Layout titulo="Página de Teste">
+            "Pagina de teste! JF3"
+        </Layout>
+        
+        
+        )
 }
