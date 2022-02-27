@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Navegador from "../components/Navegador"
 
 export default function Inicio() {
@@ -16,6 +15,9 @@ export default function Inicio() {
       <Navegador texto="PontoWeb" destino="/pComponente" cor="#cd4f04"/>
       <Navegador texto="IndexTets" destino="/test" cor="crimson" />
       <Navegador texto="TesteJF3" destino="/test/teste" cor="crimson" />
+      <Navegador texto="Navegação Dinamica" destino="/cliente/pa-1/669912" cor="green" />
+      <Navegador texto="Componente com Estado" destino="/estado" cor="black" />
+      <Navegador texto="Integracao API #01" destino="/integracao_1" cor="gray" />
 
     </div>
   )
